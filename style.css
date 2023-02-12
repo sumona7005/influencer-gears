@@ -1,0 +1,79 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* common style or utilities*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+h1, p, button{
+    margin: 10px 0;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+button{
+    background-color: green;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 50px;
+    font-size: 15px;
+    color: white;
+}
+/* navigation */
+header{
+    margin: 0 5%;
+}
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo p{
+    color: green;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0;
+}
+.menu a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.menu a, .menu .icon{
+    padding-left: 20px;
+}
+/* banner */
+.banner{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner img{
+    width: 100%;
+}
+/* company */
+.company{
+    height: 100px;
+    border-bottom: 2.5px solid transparent;
+    border-top: 2.5px solid transparent;
+    border-image: linear-gradient(0.25turn, ghostwhite, lightgrey, ghostwhite);
+    border-image-slice: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company-logo{
+    width: 100px;
+}
+.company-logo img{
+    width: 100%;
+}
