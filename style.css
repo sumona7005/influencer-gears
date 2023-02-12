@@ -56,6 +56,9 @@ nav{
 .menu a, .menu .icon{
     padding-left: 20px;
 }
+.menu .icon{
+    color: green;
+}
 /* banner */
 .banner{
     height: 400px;
@@ -130,3 +133,45 @@ nav{
     padding: 20px 0 100px 0;
 }
 /* blog */
+.blog{
+    display: flex;
+}
+.blog img{
+    height: 350px;
+    border-radius: 10px;
+}
+.blog-text{
+    height: 350px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blog-text button{
+    font-size: 15px;
+    font-weight: 900;
+    width: 200px;
+    text-align: center;
+    color: green;
+    border: 3px  solid green;
+    background-color: transparent;
+}
+/* footer */
+footer{
+    height: 200px;
+    color: white;
+    background-color: green;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+footer p{
+    font-size: 16px;
+    margin: 20px 0;
+}
+.footer-icon{
+    font-size: 30px;
+    padding: 0 4px;
+}
