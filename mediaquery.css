@@ -1,0 +1,25 @@
+@media screen and (max-width: 415px) {
+    .banner{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    button{
+        font-size: 0.6rem;
+    }
+    .menu a{
+        font-size: 0.5rem;
+    }
+    /* flex-grid */
+    nav, .menu, .banner, .blog{
+        display: flex;
+        flex-direction: column;
+    }
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
